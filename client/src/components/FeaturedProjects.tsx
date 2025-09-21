@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, MapPin, Calendar } from "lucide-react";
+import ScrollReveal from "@/components/ScrollReveal";
 import serenityImage from "@assets/generated_images/Serenity_Residences_project_f9c8c2c3.png";
 import shreeImage from "@assets/generated_images/Shree_Complex_commercial_e68a0bd8.png";
 import tranquilImage from "@assets/generated_images/Tranquil_Homes_villas_68945ba5.png";
@@ -54,18 +55,21 @@ export default function FeaturedProjects() {
   return (
     <section className="py-16">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Featured Projects
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Explore our portfolio of innovative architectural solutions that blend functionality with aesthetic excellence.
-          </p>
-        </div>
+        <ScrollReveal animation="fadeInUp">
+          <div className="text-center mb-12">
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Featured Projects
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Explore our portfolio of innovative architectural solutions that blend functionality with aesthetic excellence.
+            </p>
+          </div>
+        </ScrollReveal>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-          {projects.map((project) => (
-            <Card key={project.id} className="group hover-elevate overflow-hidden" data-testid={`project-${project.id}`}>
+          {projects.map((project, index) => (
+            <ScrollReveal key={project.id} animation="fadeInUp" delay={index * 100}>
+              <Card className="group hover-elevate overflow-hidden" data-testid={`project-${project.id}`}>
               <CardContent className="p-0">
                 <div className="relative overflow-hidden">
                   <img 
@@ -106,16 +110,19 @@ export default function FeaturedProjects() {
                   </div>
                 </div>
               </CardContent>
-            </Card>
+              </Card>
+            </ScrollReveal>
           ))}
         </div>
 
-        <div className="text-center">
-          <Button size="lg" data-testid="button-view-all-projects">
-            View All Projects
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
-        </div>
+        <ScrollReveal animation="scaleUp" delay={600}>
+          <div className="text-center">
+            <Button size="lg" data-testid="button-view-all-projects">
+              View All Projects
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </Button>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );

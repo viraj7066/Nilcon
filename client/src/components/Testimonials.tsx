@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -48,17 +49,20 @@ export default function Testimonials() {
   return (
     <section className="py-16 bg-muted/30">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-            What Our Clients Say
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Hear from satisfied clients who have experienced our commitment to architectural excellence.
-          </p>
-        </div>
+        <ScrollReveal animation="fadeInUp">
+          <div className="text-center mb-12">
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
+              What Our Clients Say
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Hear from satisfied clients who have experienced our commitment to architectural excellence.
+            </p>
+          </div>
+        </ScrollReveal>
 
-        <div className="max-w-4xl mx-auto">
-          <Card className="hover-elevate">
+        <ScrollReveal animation="scaleUp" delay={300}>
+          <div className="max-w-4xl mx-auto">
+            <Card className="hover-elevate">
             <CardContent className="p-8 md:p-12">
               <div className="text-center mb-8">
                 <div className="flex justify-center mb-4">
@@ -119,8 +123,9 @@ export default function Testimonials() {
                 </Button>
               </div>
             </CardContent>
-          </Card>
-        </div>
+            </Card>
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );

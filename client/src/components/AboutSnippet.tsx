@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Building2, Users, Award, CheckCircle, ArrowRight, Calendar } from "lucide-react";
 import architectImage from "@assets/generated_images/Architect_professional_headshot_b6b90c26.png";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export default function AboutSnippet() {
   const achievements = [
@@ -44,15 +45,17 @@ export default function AboutSnippet() {
   return (
     <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
-            Professional Excellence Since 2015
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            DSK Architect stands as Maharashtra's trusted architectural practice, delivering comprehensive 
-            design and construction solutions with unwavering commitment to quality and innovation.
-          </p>
-        </div>
+        <ScrollReveal animation="fadeInUp">
+          <div className="text-center mb-16">
+            <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
+              Professional Excellence Since 2015
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              DSK Architect stands as Maharashtra's trusted architectural practice, delivering comprehensive 
+              design and construction solutions with unwavering commitment to quality and innovation.
+            </p>
+          </div>
+        </ScrollReveal>
 
         <div className="grid lg:grid-cols-3 gap-12 items-start">
           {/* Professional Profile */}
