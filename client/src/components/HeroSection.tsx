@@ -1,44 +1,14 @@
-import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Users, Building, Award, Calendar } from "lucide-react";
+import { Users, Building, Award, Calendar, Phone, Mail } from "lucide-react";
 import heroImage from "@assets/generated_images/Modern_architectural_building_hero_3893b7be.png";
 
 export default function HeroSection() {
-  const [typewriterText, setTypewriterText] = useState("");
-  const [currentIndex, setCurrentIndex] = useState(0);
-  
-  const typewriterItems = [
-    "Residential Design",
-    "Commercial Architecture", 
-    "Interior Solutions",
-    "Construction Management"
-  ];
-
-  useEffect(() => {
-    const currentItem = typewriterItems[currentIndex];
-    let charIndex = 0;
-    
-    const typeInterval = setInterval(() => {
-      if (charIndex < currentItem.length) {
-        setTypewriterText(currentItem.substring(0, charIndex + 1));
-        charIndex++;
-      } else {
-        clearInterval(typeInterval);
-        setTimeout(() => {
-          setCurrentIndex((prev) => (prev + 1) % typewriterItems.length);
-          setTypewriterText("");
-        }, 2000);
-      }
-    }, 100);
-
-    return () => clearInterval(typeInterval);
-  }, [currentIndex]);
 
   const stats = [
-    { icon: Calendar, value: "10+", label: "Years" },
-    { icon: Building, value: "50+", label: "Projects" },
-    { icon: Users, value: "100+", label: "Clients" },
-    { icon: Award, value: "MSME", label: "Certified" },
+    { icon: Calendar, value: "10+", label: "Years of Excellence", sublabel: "Since 2015" },
+    { icon: Building, value: "50+", label: "Projects Completed", sublabel: "Residential & Commercial" },
+    { icon: Users, value: "100+", label: "Satisfied Clients", sublabel: "Across Maharashtra" },
+    { icon: Award, value: "MSME", label: "Government Certified", sublabel: "& BAI Registered" },
   ];
 
   return (
@@ -47,62 +17,94 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="Modern Architecture" 
+          alt="DSK Architect - Professional Architecture Services" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/70 to-background/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground mb-6">
-            Designing Spaces that{" "}
-            <span className="text-primary">Inspire</span>
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-muted-foreground mb-2">
-            Since 2015
-          </p>
+        <div className="max-w-5xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div className="text-left">
+              <div className="mb-6">
+                <p className="text-primary font-semibold text-lg mb-2">DSK ARCHITECT</p>
+                <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground leading-tight">
+                  Architectural Excellence{" "}
+                  <span className="text-primary">Since 2015</span>
+                </h1>
+              </div>
+              
+              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+                MSME certified and BAI registered architectural practice specializing in residential, 
+                commercial, and interior design solutions across Maharashtra.
+              </p>
 
-          <div className="h-12 flex items-center justify-center mb-6">
-            <span className="text-lg md:text-xl text-accent-foreground font-medium">
-              {typewriterText}
-              <span className="animate-pulse">|</span>
-            </span>
-          </div>
+              <div className="flex flex-col sm:flex-row gap-4 mb-8">
+                <Button size="lg" data-testid="button-portfolio">
+                  <Building className="w-5 h-5 mr-2" />
+                  View Our Projects
+                </Button>
+                <Button variant="outline" size="lg" data-testid="button-consultation">
+                  <Phone className="w-5 h-5 mr-2" />
+                  Book Consultation
+                </Button>
+              </div>
 
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Creating spaces of tranquility, harmony, and individuality.
-          </p>
+              <div className="flex items-center gap-6 text-sm text-muted-foreground">
+                <a href="tel:9096939495" className="flex items-center gap-2 hover:text-primary transition-colors" data-testid="link-phone">
+                  <Phone className="w-4 h-4" />
+                  <span>9096939495</span>
+                </a>
+                <a href="mailto:contact@dskarchitects.in" className="flex items-center gap-2 hover:text-primary transition-colors" data-testid="link-email">
+                  <Mail className="w-4 h-4" />
+                  <span>contact@dskarchitects.in</span>
+                </a>
+              </div>
+            </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button size="lg" data-testid="button-portfolio">
-              Explore Portfolio
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
-            <Button variant="outline" size="lg" data-testid="button-meet-architect">
-              Meet the Architect
-            </Button>
-          </div>
-
-          {/* Animated Counters */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div 
-                key={index}
-                className="bg-card/80 backdrop-blur-md rounded-lg p-6 border border-card-border hover-elevate"
-                data-testid={`stat-${stat.label.toLowerCase()}`}
-              >
-                <stat.icon className="w-8 h-8 text-primary mx-auto mb-3" />
-                <div className="font-condensed text-3xl font-bold text-foreground mb-1">
-                  {stat.value}
-                </div>
-                <div className="text-sm text-muted-foreground">
-                  {stat.label}
+            {/* Right Content - Professional Info */}
+            <div className="lg:text-right">
+              <div className="bg-card/90 backdrop-blur-md border border-card-border rounded-xl p-8">
+                <h3 className="font-display text-2xl font-bold text-foreground mb-2">
+                  Ar. Dipesh Sushil Khiloriya
+                </h3>
+                <p className="text-primary font-medium mb-4">Principal Architect & Founder</p>
+                <div className="space-y-2 text-sm text-muted-foreground">
+                  <p>• MSME Certified: UDYAM-MH-09-0004399</p>
+                  <p>• BAI Registered: MH/DHU/D/17/PAT</p>
+                  <p>• 10+ Years Professional Experience</p>
+                  <p>• 50+ Successful Projects Delivered</p>
                 </div>
               </div>
-            ))}
+            </div>
+          </div>
+
+          {/* Professional Stats Bar */}
+          <div className="mt-16">
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              {stats.map((stat, index) => (
+                <div 
+                  key={index}
+                  className="bg-card/90 backdrop-blur-md rounded-lg p-6 border border-card-border hover-elevate text-center"
+                  data-testid={`stat-${stat.label.toLowerCase().replaceAll(/\s+/g, '-')}`}
+                >
+                  <stat.icon className="w-8 h-8 text-primary mx-auto mb-3" />
+                  <div className="font-condensed text-2xl md:text-3xl font-bold text-foreground mb-1">
+                    {stat.value}
+                  </div>
+                  <div className="text-sm font-medium text-foreground mb-1">
+                    {stat.label}
+                  </div>
+                  <div className="text-xs text-muted-foreground">
+                    {stat.sublabel}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
