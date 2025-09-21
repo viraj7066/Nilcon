@@ -1,0 +1,24 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Quote } from "lucide-react";
+
+export default function PhilosophyHighlight() {
+  return (
+    <section className="py-16">
+      <div className="container mx-auto px-4">
+        <Card className="max-w-4xl mx-auto bg-gradient-to-r from-primary/10 via-accent/5 to-primary/10 border-primary/20">
+          <CardContent className="p-8 md:p-12 text-center">
+            <Quote className="w-12 h-12 text-primary mx-auto mb-6" />
+            <blockquote className="font-display text-2xl md:text-3xl font-medium text-foreground mb-6 leading-relaxed">
+              "At DSK Architect, we design with harmony, cultural sensitivity, and spiritual essence 
+              at the core of every space."
+            </blockquote>
+            <div className="text-muted-foreground">
+              <p className="font-semibold">Ar. Dipesh Sushil Khiloriya</p>
+              <p className="text-sm">Principal Architect & Founder</p>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    </section>
+  );
+}
