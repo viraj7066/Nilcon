@@ -1,0 +1,159 @@
+Build a fully responsive, multi-page website for DSK Architect (also known as DSK Architects and Builders), an established architectural firm in Dhule, Maharashtra. Founded on June 10, 2015, by Principal Architect Ar. Dipesh Sushil Khiloriya, the firm is registered as a MSME Micro Enterprise and recognized by BAI (Builders Association of India). Adopt a refined architectural style: a neutral, sophisticated palette with deep charcoal gray, warm terracotta orange accents, pure white backgrounds, and cool slate-blue highlights. Use Playfair Display for headings, Open Sans for body text, and Roboto Condensed for numbers/stats. Layout on a 12-column responsive grid with ample white space, structured typography, and architectural line dividers. Include subtle animations and micro-interactions—professional, minimal, not flashy.
+
+Homepage
+
+Header: Sticky glass-morphism navbar with logo left, menu center (Home | Projects | Services | Gallery | About | Contact), CTAs “Book Consultation” and “Call Now” (9096939495) on right.
+
+Hero: Full-width architectural video/image with overlay.
+
+Headline: “Designing Spaces that Inspire Since 2015”
+
+Subtitle: Typewriter animation → “Residential | Commercial | Interiors | Construction Management”
+
+Tagline: “Creating spaces of tranquility, harmony, and individuality.”
+
+CTAs: “Explore Portfolio” and “Meet the Architect.”
+
+Animated counters: 10+ Years | 50+ Projects | 100+ Clients | MSME Certified.
+
+About Snippet: Image of Ar. Dipesh Sushil Khiloriya + 4 values: Harmonious Designs, Transparent Processes, Customized Solutions, Govt. Recognized Expertise.
+
+Featured Projects: Card carousel (dummy examples: Serenity Residences, Shree Complex, Tranquil Homes, Industrial Hub).
+
+Services Preview: 4-column icon grid → Residential | Commercial | Interior | Construction Mgmt.
+
+Philosophy Highlight: Quote: “At DSK Architect, we design with harmony, cultural sensitivity, and spiritual essence at the core of every space.”
+
+Testimonials: 3-slide carousel with star ratings, client quotes, avatars, project names.
+
+FAQ Accordion (6–7): Topics → design process, timelines, renovation, govt. approvals, fees, site supervision.
+
+Newsletter Signup: Minimal strip with email + subscribe.
+
+Footer:
+
+Col 1: About DSK + MSME (UDYAM-MH-09-0004399) + BAI ID (MH/DHU/D/17/PAT).
+
+Col 2: Quick Links.
+
+Col 3: Services.
+
+Col 4: Contact → Address: 1st Floor, Yogesh Complex, Jhansi Rani Chowk, Lalbaug, Dhule – 424001, Opp. Jhansi Rani Putala. Phone: 9096939495. Email: contact@dskarchitects.in
+ (dummy).
+
+Social icons.
+
+Projects Page
+
+Hero: “Our Portfolio: Residential, Commercial & Interiors.”
+
+Filter Bar: Type (Residential | Commercial | Interior | Renovation), Status (Ongoing | Completed).
+
+Project Cards:
+
+Serenity Residences – Ongoing (Residential).
+
+Shree Complex – Completed (Commercial).
+
+Tranquil Homes – Completed (Villas).
+
+Industrial Hub – Ongoing (Dhule MIDC).
+
+Gallery Section: Lightbox view with description.
+
+Upcoming Teaser: Early bird signups.
+
+Services Page
+
+Hero: Modern architectural background. Title: “Our Expertise in Design & Build.”
+
+Blocks:
+
+Residential Architecture
+
+Commercial Architecture
+
+Interior Design
+
+Technical Consultancy
+
+Construction Management
+
+Renovation & Additions
+
+Each with icon + short text + CTA “Learn More.”
+
+Sticky Sidebar: Quick contact (Call | Book Consultation).
+
+Gallery Page
+
+Hero: Full-width photo. Title: “Our Design Showcase” + subtext “Explore our projects, interiors, and designs—crafted with precision and creativity.”
+
+Filter Categories: All | Residential | Commercial | Interiors | Renovation | Industrial.
+
+Masonry Grid: 3–4 columns, responsive.
+
+Example items: Serenity Residences Living Room (Residential), Shree Complex Façade (Commercial), Tranquil Homes Interiors (Residential), Industrial Hub Site Plan (Industrial).
+
+Hover Effect: Smooth zoom + overlay with project title & category.
+
+Lightbox: Opens with project name, category, description.
+
+Animations: On-scroll fade-up + staggered delay (300ms ease-in-out).
+
+About Us Page
+
+Hero: Office photo.
+
+Timeline (2015–2025): Registration → Residential → Commercial → MSME recognition → BAI membership → 50+ projects milestone.
+
+Leadership: Ar. Dipesh Sushil Khiloriya → photo + short bio.
+
+Certifications: MSME, BAI, Govt. Recognition.
+
+Values: Harmonious Integration | Cultural Sensitivity | Landscape Integration | Customized Solutions | Spiritual Essence.
+
+Contact Page
+
+Hero: Map background with overlay “Let’s Create Together.”
+
+Form: Name, email, phone, service interest, message.
+
+Contact Info:
+
+Address: 1st Floor, Yogesh Complex, Jhansi Rani Chowk, Lalbaug, Dhule – 424001, Opp. Jhansi Rani Putala.
+
+Phone: 9096939495.
+
+Email: contact@dskarchitects.in
+.
+
+Hours: Mon–Sat, 10am–7pm.
+
+Google Map Embed + CTA “Schedule a Free Consultation.”
+
+Design & Animations
+
+Colors: Charcoal gray, terracotta orange, slate blue highlights, white backgrounds.
+
+Typography: Playfair Display (headings), Open Sans (body), Roboto Condensed (stats).
+
+UI: Glass cards, soft shadows, minimal line dividers.
+
+Animations:
+
+Scroll reveal fade/slide for sections.
+
+Gallery images staggered fade-up.
+
+Hero texts fade-in from bottom.
+
+Buttons micro-bounce hover.
+
+FAQ slide+fade (300ms ease).
+
+Performance: Lazy load, preload assets, GPU animations.
+
+Accessibility: ARIA roles, keyboard nav, focus outlines, reduced-motion support.
+
+SEO: Local business schema (Dhule, Maharashtra), OG tags, XML sitemap.
