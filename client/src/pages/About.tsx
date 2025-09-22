@@ -4,7 +4,7 @@ import Timeline from "@/components/Timeline";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Award, Users, Palette, Heart, Lightbulb } from "lucide-react";
-import architectImage from "@assets/generated_images/Architect_professional_headshot_b6b90c26.png";
+import principalImage from "@assets/generated_images/principal.png";
 import officeImage from "@assets/generated_images/Office_interior_space_336ea015.png";
 
 export default function About() {
@@ -91,9 +91,9 @@ export default function About() {
                 <Card className="overflow-hidden">
                   <CardContent className="p-0">
                     <img 
-                      src={architectImage}
+                      src={principalImage}
                       alt="Ar. Dipesh Sushil Khilosiya"
-                      className="w-full h-96 object-cover"
+                      className="w-80 mx-auto h-auto object-contain"
                     />
                     <div className="p-6">
                       <h3 className="font-display text-2xl font-bold text-foreground mb-2">
