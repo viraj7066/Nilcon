@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Building2, Users, Award, CheckCircle, ArrowRight, Calendar } from "lucide-react";
-import architectImage from "@assets/generated_images/Fouder.png";
+import architectImage from "@assets/generated_images/Founder.png";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export default function AboutSnippet() {
