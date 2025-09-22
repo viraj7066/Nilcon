@@ -1,4 +1,4 @@
-Build a fully responsive, multi-page website for DSK Architect (also known as DSK Architects and Builders), an established architectural firm in Dhule, Maharashtra. Founded on June 10, 2015, by Principal Architect Ar. Dipesh Sushil Khiloriya, the firm is registered as a MSME Micro Enterprise and recognized by BAI (Builders Association of India). Adopt a refined architectural style: a neutral, sophisticated palette with deep charcoal gray, warm terracotta orange accents, pure white backgrounds, and cool slate-blue highlights. Use Playfair Display for headings, Open Sans for body text, and Roboto Condensed for numbers/stats. Layout on a 12-column responsive grid with ample white space, structured typography, and architectural line dividers. Include subtle animations and micro-interactions—professional, minimal, not flashy.
+Build a fully responsive, multi-page website for DSK Architect (also known as DSK Architects and Builders), an established architectural firm in Dhule, Maharashtra. Founded on June 10, 2015, by Principal Architect Ar. Dipesh Sushil Khilosiya, the firm is registered as a MSME Micro Enterprise and recognized by BAI (Builders Association of India). Adopt a refined architectural style: a neutral, sophisticated palette with deep charcoal gray, warm terracotta orange accents, pure white backgrounds, and cool slate-blue highlights. Use Playfair Display for headings, Open Sans for body text, and Roboto Condensed for numbers/stats. Layout on a 12-column responsive grid with ample white space, structured typography, and architectural line dividers. Include subtle animations and micro-interactions—professional, minimal, not flashy.
 
 Homepage
 
@@ -16,7 +16,7 @@ CTAs: “Explore Portfolio” and “Meet the Architect.”
 
 Animated counters: 10+ Years | 50+ Projects | 100+ Clients | MSME Certified.
 
-About Snippet: Image of Ar. Dipesh Sushil Khiloriya + 4 values: Harmonious Designs, Transparent Processes, Customized Solutions, Govt. Recognized Expertise.
+About Snippet: Image of Ar. Dipesh Sushil Khilosiya + 4 values: Harmonious Designs, Transparent Processes, Customized Solutions, Govt. Recognized Expertise.
 
 Featured Projects: Card carousel (dummy examples: Serenity Residences, Shree Complex, Tranquil Homes, Industrial Hub).
 
@@ -107,7 +107,7 @@ Hero: Office photo.
 
 Timeline (2015–2025): Registration → Residential → Commercial → MSME recognition → BAI membership → 50+ projects milestone.
 
-Leadership: Ar. Dipesh Sushil Khiloriya → photo + short bio.
+Leadership: Ar. Dipesh Sushil Khilosiya → photo + short bio.
 
 Certifications: MSME, BAI, Govt. Recognition.
 

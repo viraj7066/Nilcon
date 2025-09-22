@@ -92,12 +92,12 @@ export default function About() {
                   <CardContent className="p-0">
                     <img 
                       src={architectImage}
-                      alt="Ar. Dipesh Sushil Khiloriya"
+                      alt="Ar. Dipesh Sushil Khilosiya"
                       className="w-full h-96 object-cover"
                     />
                     <div className="p-6">
                       <h3 className="font-display text-2xl font-bold text-foreground mb-2">
-                        Ar. Dipesh Sushil Khiloriya
+                        Ar. Dipesh Sushil Khilosiya
                       </h3>
                       <p className="text-primary font-medium mb-4">
                         Principal Architect & Founder
@@ -115,7 +115,7 @@ export default function About() {
               <div className="space-y-6">
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Founded on June 10, 2015, DSK Architect has emerged as a leading architectural practice 
-                  in Dhule, Maharashtra. Under the visionary leadership of Ar. Dipesh Sushil Khiloriya, 
+                  in Dhule, Maharashtra. Under the visionary leadership of Ar. Dipesh Sushil Khilosiya, 
                   we have transformed countless spaces and touched hundreds of lives through our architectural innovations.
                 </p>
                 

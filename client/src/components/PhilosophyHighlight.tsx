@@ -15,7 +15,7 @@ export default function PhilosophyHighlight() {
               at the core of every space."
             </blockquote>
             <div className="text-muted-foreground">
-              <p className="font-semibold">Ar. Dipesh Sushil Khiloriya</p>
+              <p className="font-semibold">Ar. Dipesh Sushil Khilosiya</p>
               <p className="text-sm">Principal Architect & Founder</p>
             </div>
           </CardContent>

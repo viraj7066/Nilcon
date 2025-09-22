@@ -8,7 +8,7 @@ export default function Timeline() {
     {
       year: "2015",
       title: "Company Founded",
-      description: "DSK Architect established on June 10, 2015 by Ar. Dipesh Sushil Khiloriya",
+      description: "DSK Architect established on June 10, 2015 by Ar. Dipesh Sushil Khilosiya",
       icon: Building,
       badge: "Foundation"
     },

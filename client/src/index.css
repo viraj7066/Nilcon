@@ -14,67 +14,67 @@
   --elevate-1: rgba(0,0,0, .03);
   --elevate-2: rgba(0,0,0, .08);
 
-  --background: 30 5% 96%;
+  --background: 0 0% 100%; /* Pure White #FFFFFF */
 
-  --foreground: 220 10% 15%;
+  --foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
 
-  --border: 220 8% 85%;
+  --border: 0 0% 85%; /* Light gray border */
 
-  --card: 30 4% 94%;
+  --card: 0 0% 96%; /* Soft Gray #F5F5F5 */
 
-  --card-foreground: 220 10% 15%;
+  --card-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
 
-  --card-border: 220 8% 82%;
+  --card-border: 0 0% 82%; /* Light gray border */
 
-  --sidebar: 30 3% 92%;
+  --sidebar: 0 0% 92%; /* Light gray sidebar */
 
-  --sidebar-foreground: 220 10% 15%;
+  --sidebar-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
 
-  --sidebar-border: 220 8% 80%;
+  --sidebar-border: 0 0% 80%; /* Light gray border */
 
-  --sidebar-primary: 15 75% 55%;
+  --sidebar-primary: 38 42% 57%; /* Warm Gold #C6A35C */
 
-  --sidebar-primary-foreground: 30 5% 96%;
+  --sidebar-primary-foreground: 0 0% 100%; /* Pure White #FFFFFF */
 
-  --sidebar-accent: 30 2% 89%;
+  --sidebar-accent: 0 0% 89%; /* Light gray accent */
 
-  --sidebar-accent-foreground: 220 10% 15%;
+  --sidebar-accent-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
 
-  --sidebar-ring: 15 75% 55%;
+  --sidebar-ring: 38 42% 57%; /* Warm Gold #C6A35C */
 
-  --popover: 30 3% 90%;
+  --popover: 0 0% 90%; /* Light gray popover */
 
-  --popover-foreground: 220 10% 15%;
+  --popover-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
 
-  --popover-border: 220 8% 78%;
+  --popover-border: 0 0% 78%; /* Light gray border */
 
-  --primary: 15 75% 55%;
+  --primary: 38 42% 57%; /* Warm Gold #C6A35C */
 
-  --primary-foreground: 30 5% 96%;
+  --primary-foreground: 0 0% 100%; /* Pure White #FFFFFF */
 
-  --secondary: 30 2% 88%;
+  --secondary: 0 0% 88%; /* Light gray secondary */
 
-  --secondary-foreground: 220 10% 15%;
+  --secondary-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
 
-  --muted: 30 2% 86%;
+  --muted: 0 0% 86%; /* Light gray muted */
 
-  --muted-foreground: 220 10% 45%;
+  --muted-foreground: 0 0% 45%; /* Medium gray text */
 
-  --accent: 210 15% 88%;
+  --accent: 0 0% 88%; /* Light gray accent */
 
-  --accent-foreground: 210 25% 35%;
+  --accent-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
 
-  --destructive: 0 84% 60%;
+  --destructive: 0 84% 60%; /* Red for destructive actions */
 
-  --destructive-foreground: 0 0% 98%;
+  --destructive-foreground: 0 0% 98%; /* White text on red */
 
-  --input: 220 8% 75%;
-  --ring: 15 75% 55%;
-  --chart-1: 15 75% 55%;
-  --chart-2: 210 25% 35%;
-  --chart-3: 220 10% 15%;
-  --chart-4: 30 80% 45%;
-  --chart-5: 200 85% 40%;
+  --input: 0 0% 75%; /* Light gray input */
+  --ring: 38 42% 57%; /* Warm Gold #C6A35C */
+  --chart-1: 38 42% 57%; /* Warm Gold #C6A35C */
+  --chart-2: 0 0% 35%; /* Dark gray */
+  --chart-3: 0 0% 11%; /* Charcoal Black #1C1C1C */
+  --chart-4: 38 42% 45%; /* Darker gold */
+  --chart-5: 200 85% 40%; /* Blue accent */
 
   --font-sans: Open Sans, sans-serif;
   --font-serif: Georgia, serif;
@@ -132,67 +132,67 @@
   --elevate-1: rgba(255,255,255, .04);
   --elevate-2: rgba(255,255,255, .09);
 
-  --background: 220 10% 8%;
+  --background: 0 0% 8%; /* Dark background */
 
-  --foreground: 30 5% 92%;
+  --foreground: 0 0% 92%; /* Light text */
 
-  --border: 220 8% 18%;
+  --border: 0 0% 18%; /* Dark border */
 
-  --card: 220 9% 10%;
+  --card: 0 0% 10%; /* Dark card */
 
-  --card-foreground: 30 5% 92%;
+  --card-foreground: 0 0% 92%; /* Light text */
 
-  --card-border: 220 8% 20%;
+  --card-border: 0 0% 20%; /* Dark border */
 
-  --sidebar: 220 30% 20%;
+  --sidebar: 0 0% 12%; /* Dark sidebar */
 
-  --sidebar-foreground: 30 5% 92%;
+  --sidebar-foreground: 0 0% 92%; /* Light text */
 
-  --sidebar-border: 220 8% 22%;
+  --sidebar-border: 0 0% 22%; /* Dark border */
 
-  --sidebar-primary: 15 75% 55%;
+  --sidebar-primary: 38 42% 57%; /* Warm Gold #C6A35C */
 
-  --sidebar-primary-foreground: 30 5% 96%;
+  --sidebar-primary-foreground: 0 0% 100%; /* Pure White #FFFFFF */
 
-  --sidebar-accent: 220 28% 22%;
+  --sidebar-accent: 0 0% 16%; /* Dark accent */
 
-  --sidebar-accent-foreground: 30 5% 92%;
+  --sidebar-accent-foreground: 0 0% 92%; /* Light text */
 
-  --sidebar-ring: 15 75% 55%;
+  --sidebar-ring: 38 42% 57%; /* Warm Gold #C6A35C */
 
-  --popover: 220 8% 12%;
+  --popover: 0 0% 12%; /* Dark popover */
 
-  --popover-foreground: 30 5% 92%;
+  --popover-foreground: 0 0% 92%; /* Light text */
 
-  --popover-border: 220 8% 24%;
+  --popover-border: 0 0% 24%; /* Dark border */
 
-  --primary: 15 75% 55%;
+  --primary: 38 42% 57%; /* Warm Gold #C6A35C */
 
-  --primary-foreground: 30 5% 96%;
+  --primary-foreground: 0 0% 100%; /* Pure White #FFFFFF */
 
-  --secondary: 220 8% 14%;
+  --secondary: 0 0% 14%; /* Dark secondary */
 
-  --secondary-foreground: 30 5% 92%;
+  --secondary-foreground: 0 0% 92%; /* Light text */
 
-  --muted: 220 8% 16%;
+  --muted: 0 0% 16%; /* Dark muted */
 
-  --muted-foreground: 30 5% 65%;
+  --muted-foreground: 0 0% 65%; /* Medium gray text */
 
-  --accent: 210 25% 16%;
+  --accent: 0 0% 16%; /* Dark accent */
 
-  --accent-foreground: 210 25% 75%;
+  --accent-foreground: 0 0% 92%; /* Light text */
 
-  --destructive: 0 84% 60%;
+  --destructive: 0 84% 60%; /* Red for destructive actions */
 
-  --destructive-foreground: 0 0% 98%;
+  --destructive-foreground: 0 0% 98%; /* White text on red */
 
-  --input: 220 8% 25%;
-  --ring: 15 75% 55%;
-  --chart-1: 15 75% 65%;
-  --chart-2: 210 25% 75%;
-  --chart-3: 30 5% 85%;
-  --chart-4: 30 80% 65%;
-  --chart-5: 200 85% 60%;
+  --input: 0 0% 25%; /* Dark input */
+  --ring: 38 42% 57%; /* Warm Gold #C6A35C */
+  --chart-1: 38 42% 65%; /* Lighter gold */
+  --chart-2: 0 0% 75%; /* Light gray */
+  --chart-3: 0 0% 85%; /* Very light gray */
+  --chart-4: 38 42% 65%; /* Lighter gold */
+  --chart-5: 200 85% 60%; /* Blue accent */
 
   --shadow-2xs: 0px 2px 0px 0px hsl(220 8% 18% / 0.00);
   --shadow-xs: 0px 2px 0px 0px hsl(220 8% 18% / 0.00);

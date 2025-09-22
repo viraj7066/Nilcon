@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Building2, Users, Award, CheckCircle, ArrowRight, Calendar } from "lucide-react";
-import architectImage from "@assets/generated_images/Architect_professional_headshot_b6b90c26.png";
+import architectImage from "@assets/generated_images/Fouder.png";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export default function AboutSnippet() {
@@ -65,7 +65,7 @@ export default function AboutSnippet() {
                 <div className="relative">
                   <img 
                     src={architectImage}
-                    alt="Ar. Dipesh Sushil Khiloriya - Principal Architect"
+                    alt="Ar. Dipesh Sushil Khilosiya - Principal Architect"
                     className="w-full h-80 object-cover"
                     data-testid="img-architect"
                   />
@@ -74,7 +74,7 @@ export default function AboutSnippet() {
                 
                 <div className="p-6">
                   <h3 className="font-display text-2xl font-bold text-foreground mb-2">
-                    Ar. Dipesh Sushil Khiloriya
+                    Ar. Dipesh Sushil Khilosiya
                   </h3>
                   <p className="text-primary font-semibold mb-3">Principal Architect & Founder</p>
                   

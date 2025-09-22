@@ -66,10 +66,10 @@ export default function HeroSection() {
             </div>
 
             {/* Right Content - Professional Info */}
-            <div className="lg:text-right">
-              <div className="bg-card/90 backdrop-blur-md border border-card-border rounded-xl p-8">
+            <div className="lg:text-center">
+              <div className="bg-card/90 backdrop-blur-md border border-card-border rounded-xl p-8 text-center">
                 <h3 className="font-display text-2xl font-bold text-foreground mb-2">
-                  Ar. Dipesh Sushil Khiloriya
+                  Ar. Dipesh Sushil Khilosiya
                 </h3>
                 <p className="text-primary font-medium mb-4">Principal Architect & Founder</p>
                 <div className="space-y-2 text-sm text-muted-foreground">
