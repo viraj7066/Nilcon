@@ -3,6 +3,7 @@ import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Phone } from "lucide-react";
+import logoImage from "@assets/generated_images/Logo.png";
 
 export default function Header() {
   const [location] = useLocation();
@@ -26,12 +27,14 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" data-testid="link-home">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">D</span>
-              </div>
+              <img 
+                src={logoImage} 
+                alt="Nilcon Builders Logo" 
+                className="h-10 w-auto" 
+              />
               <div>
-                <h1 className="font-display font-bold text-xl text-foreground">DSK Architect</h1>
-                <p className="text-muted-foreground text-xs">Since 2015</p>
+                <h1 className="font-display font-bold text-xl text-foreground">Nilcon Builders</h1>
+                <p className="text-muted-foreground text-xs">Since 2014</p>
               </div>
             </div>
           </Link>
@@ -59,7 +62,7 @@ export default function Header() {
             </Button>
             <Button size="sm" data-testid="button-call">
               <Phone className="w-4 h-4 mr-2" />
-              9096939495
+              9404970032
             </Button>
           </div>
 

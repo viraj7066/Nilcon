@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Building2, Users, Award, CheckCircle, ArrowRight, Calendar } from "lucide-react";
-import architectImage from "@assets/generated_images/Founder.png";
+import architectImage from "@assets/generated_images/Founder_Nilcon.png";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export default function AboutSnippet() {
@@ -11,7 +11,7 @@ export default function AboutSnippet() {
       icon: Award,
       title: "Government Certified",
       description: "MSME & BAI registered professional practice",
-      detail: "UDYAM-MH-09-0004399 | MH/DHU/D/17/PAT"
+      detail: "UDAYJ-MH-10-0004896 | MH/DHU/D/10/AAT"
     },
     {
       icon: Building2,
@@ -34,12 +34,12 @@ export default function AboutSnippet() {
   ];
 
   const expertise = [
-    "Architectural Design & Planning",
-    "Construction Management",
-    "Interior Design Solutions",
-    "Government Approvals & Compliance",
-    "Project Consultation & Advisory",
-    "Site Supervision & Quality Control"
+    "Residential Construction",
+    "Commercial Building",
+    "Industrial Infrastructure",
+    "Project Management",
+    "Quality Control & Assurance",
+    "Renovation & Expansion"
   ];
 
   return (
@@ -48,11 +48,11 @@ export default function AboutSnippet() {
         <ScrollReveal animation="fadeInUp">
           <div className="text-center mb-16">
             <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-4">
-              Professional Excellence Since 2015
+              Professional Excellence Since 2014
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              DSK Architect stands as Maharashtra's trusted architectural practice, delivering comprehensive 
-              design and construction solutions with unwavering commitment to quality and innovation.
+              Nilcon Builders stands as Maharashtra's trusted construction company, delivering comprehensive 
+              building solutions with unwavering commitment to quality, safety, and innovation.
             </p>
           </div>
         </ScrollReveal>
@@ -65,33 +65,33 @@ export default function AboutSnippet() {
                 <div className="relative">
                   <img 
                     src={architectImage}
-                    alt="Ar. Dipesh Sushil Khilosiya - Principal Architect"
+                    alt="Prashant Patil - Founder & Managing Director"
                     className="w-full h-80 object-cover"
-                    data-testid="img-architect"
+                    data-testid="img-founder"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent" />
                 </div>
                 
                 <div className="p-6">
                   <h3 className="font-display text-2xl font-bold text-foreground mb-2">
-                    Ar. Dipesh Sushil Khilosiya
+                    Prashant Patil
                   </h3>
-                  <p className="text-primary font-semibold mb-3">Principal Architect & Founder</p>
+                  <p className="text-primary font-semibold mb-3">Founder & Managing Director</p>
                   
                   <div className="space-y-2 text-sm text-muted-foreground mb-4">
                     <div className="flex items-center gap-2">
                       <Calendar className="w-4 h-4" />
-                      <span>Established June 10, 2015</span>
+                      <span>Established March 14, 2014</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Award className="w-4 h-4" />
-                      <span>10+ Years Experience</span>
+                      <span>11+ Years Experience</span>
                     </div>
                   </div>
                   
                   <div className="space-y-2 mb-6">
-                    <Badge variant="secondary" className="mr-2">MSME: UDYAM-MH-09-0004399</Badge>
-                    <Badge variant="secondary">BAI: MH/DHU/D/17/PAT</Badge>
+                    <Badge variant="secondary" className="mr-2">MSME: UDAYJ-MH-10-0004896</Badge>
+                    <Badge variant="secondary">BAI: MH/DHU/D/10/AAT</Badge>
                   </div>
 
                   <h4 className="font-semibold text-foreground mb-3">Areas of Expertise</h4>
@@ -104,7 +104,7 @@ export default function AboutSnippet() {
                     ))}
                   </ul>
                   
-                  <Button className="w-full" data-testid="button-meet-architect">
+                  <Button className="w-full" data-testid="button-meet-founder">
                     <ArrowRight className="w-4 h-4 mr-2" />
                     Learn More About Our Founder
                   </Button>
@@ -146,18 +146,18 @@ export default function AboutSnippet() {
             <Card className="mt-8 bg-primary/5 border-primary/20">
               <CardContent className="p-8 text-center">
                 <h3 className="font-display text-2xl font-bold text-foreground mb-4">
-                  Ready to Transform Your Space?
+                  Ready to Build Your Vision?
                 </h3>
                 <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                  Experience the DSK Architect difference. From initial consultation to project completion, 
-                  we deliver architectural excellence that exceeds expectations.
+                  Experience the Nilcon Builders difference. From initial consultation to project completion, 
+                  we deliver construction excellence that exceeds expectations.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button size="lg" data-testid="button-start-project">
                     Start Your Project
                   </Button>
-                  <Button variant="outline" size="lg" data-testid="button-view-portfolio">
-                    View Our Portfolio
+                  <Button variant="outline" size="lg" data-testid="button-view-projects">
+                    View Our Projects
                   </Button>
                 </div>
               </CardContent>

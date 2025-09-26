@@ -3,48 +3,48 @@ import Footer from "@/components/Footer";
 import Timeline from "@/components/Timeline";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Award, Users, Palette, Heart, Lightbulb } from "lucide-react";
-import principalImage from "@assets/generated_images/principal.png";
-import officeImage from "@assets/generated_images/Office_interior_space_336ea015.png";
+import { Award, Users, Building, Heart, Calendar } from "lucide-react";
+import architectImage from "@assets/generated_images/Founder_Nilcon.png";
+import officeImage from "@assets/generated_images/Office.png";
 
 export default function About() {
   const values = [
     {
-      icon: Palette,
-      title: "Harmonious Integration",
-      description: "We seamlessly blend architectural elements with natural surroundings, creating spaces that feel both innovative and timeless."
-    },
-    {
-      icon: Heart,
-      title: "Cultural Sensitivity",
-      description: "Our designs respect and incorporate local cultural elements, ensuring each project resonates with the community it serves."
+      icon: Award,
+      title: "Quality Excellence",
+      description: "We maintain the highest standards of construction quality, using premium materials and proven techniques for long-lasting structures."
     },
     {
       icon: Users,
-      title: "Landscape Integration",
-      description: "We believe in creating architecture that works in harmony with the natural landscape, preserving and enhancing the environment."
+      title: "Client Focus",
+      description: "Our projects are centered around client needs, ensuring transparent communication and delivering on commitments."
     },
     {
-      icon: Lightbulb,
-      title: "Customized Solutions",
-      description: "Every project receives our full attention with tailored solutions that address unique requirements and challenges."
+      icon: Building,
+      title: "Technical Expertise",
+      description: "With years of industry experience, we bring technical excellence and innovative solutions to every construction challenge."
     },
     {
-      icon: Award,
-      title: "Spiritual Essence",
-      description: "We infuse our designs with a sense of tranquility and spiritual balance, creating spaces that nourish the soul."
+      icon: Calendar,
+      title: "Timely Delivery",
+      description: "We pride ourselves on completing projects on schedule without compromising on quality or safety standards."
+    },
+    {
+      icon: Heart,
+      title: "Community Commitment",
+      description: "We build not just structures, but contribute to the growth and development of the communities we serve."
     }
   ];
 
   const certifications = [
     {
       title: "MSME Certification",
-      number: "UDYAM-MH-09-0004399",
+      number: "UDAYJ-MH-10-0004896",
       description: "Recognized as a Micro, Small & Medium Enterprise by the Government of India"
     },
     {
       title: "BAI Registration",
-      number: "MH/DHU/D/17/PAT",
+      number: "MH/DHU/D/10/AAT",
       description: "Registered member of Builders Association of India, Maharashtra Chapter"
     },
     {
@@ -71,10 +71,10 @@ export default function About() {
           
           <div className="relative container mx-auto px-4 text-center">
             <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
-              About DSK Architect
+              About Nilcon Builders
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A decade of architectural excellence, creating spaces that inspire harmony, reflect cultural values, and enhance the human experience.
+              A decade of construction excellence, building robust, aesthetically pleasing, and functional structures across Maharashtra.
             </p>
           </div>
         </section>
@@ -85,27 +85,27 @@ export default function About() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-                  Meet Our Principal Architect
+                  Meet Our Founder & Managing Director
                 </h2>
                 
                 <Card className="overflow-hidden">
                   <CardContent className="p-0">
                     <img 
-                      src={principalImage}
-                      alt="Ar. Dipesh Sushil Khilosiya"
+                      src={architectImage}
+                      alt="Prashant Patil"
                       className="w-80 mx-auto h-auto object-contain"
                     />
                     <div className="p-6">
                       <h3 className="font-display text-2xl font-bold text-foreground mb-2">
-                        Ar. Dipesh Sushil Khilosiya
+                        Prashant Patil
                       </h3>
                       <p className="text-primary font-medium mb-4">
-                        Principal Architect & Founder
+                        Founder & Managing Director
                       </p>
                       <div className="flex flex-wrap gap-2">
                         <Badge variant="secondary">MSME Certified</Badge>
                         <Badge variant="secondary">BAI Registered</Badge>
-                        <Badge variant="secondary">10+ Years Experience</Badge>
+                        <Badge variant="secondary">11+ Years Experience</Badge>
                       </div>
                     </div>
                   </CardContent>
@@ -114,21 +114,22 @@ export default function About() {
 
               <div className="space-y-6">
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Founded on June 10, 2015, DSK Architect has emerged as a leading architectural practice 
-                  in Dhule, Maharashtra. Under the visionary leadership of Ar. Dipesh Sushil Khilosiya, 
-                  we have transformed countless spaces and touched hundreds of lives through our architectural innovations.
+                  Founded on March 14, 2014, Nilcon Builders has emerged as a leading construction company 
+                  in Dhule, Maharashtra. Under the visionary leadership of Prashant Patil, 
+                  we have built numerous residential, commercial, and industrial structures across the region.
                 </p>
                 
                 <p className="text-muted-foreground leading-relaxed">
-                  Our journey began with a simple yet profound vision: to create architecture that doesn't 
-                  just shelter, but inspires. We believe that great architecture has the power to transform 
-                  communities, enhance lifestyles, and create lasting value for generations to come.
+                  Our journey began with a simple yet profound vision: to build structures that are not 
+                  just functional, but also aesthetically pleasing and built to last. We believe that quality 
+                  construction has the power to transform communities, provide safe living and working spaces, 
+                  and create lasting value for our clients.
                 </p>
                 
                 <p className="text-muted-foreground leading-relaxed">
-                  Today, with over 50 successful projects and 100+ satisfied clients, DSK Architect stands 
-                  as a testament to the power of passionate, purposeful design. Our MSME certification and 
-                  BAI registration reflect our commitment to professional excellence and industry standards.
+                  Today, with over 50 successful projects and 100+ satisfied clients, Nilcon Builders stands 
+                  as a testament to the power of quality workmanship and professional integrity. Our MSME certification and 
+                  BAI registration reflect our commitment to industry standards and client satisfaction.
                 </p>
               </div>
             </div>
@@ -146,7 +147,7 @@ export default function About() {
                 Our Core Values
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                The principles that guide every project and shape our approach to architectural excellence.
+                The principles that guide every project and shape our approach to construction excellence.
               </p>
             </div>
 
@@ -180,7 +181,7 @@ export default function About() {
                 Certifications & Recognition
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Our professional credentials and government recognition ensure quality, compliance, and trust.
+                Our professional credentials and industry recognition ensure quality construction, regulatory compliance, and client trust.
               </p>
             </div>
 

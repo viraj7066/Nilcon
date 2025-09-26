@@ -1,7 +1,8 @@
-import { Link } from "wouter";
+import { Link } from "wouter"; // keep only this
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import logoImage from "@assets/generated_images/Logo.png";
 
 export default function Footer() {
   const quickLinks = [
@@ -13,12 +14,12 @@ export default function Footer() {
   ];
 
   const services = [
-    "Residential Architecture",
-    "Commercial Design", 
-    "Interior Design",
-    "Construction Management",
-    "Technical Consultancy",
-    "Renovation & Additions"
+    "Residential Construction",
+    "Commercial Building",
+    "Industrial Infrastructure",
+    "Project Management",
+    "Quality Control & Supervision",
+    "Renovation & Expansion"
   ];
 
   const socialLinks = [
@@ -32,26 +33,24 @@ export default function Footer() {
     <footer className="bg-sidebar text-sidebar-foreground border-t border-sidebar-border">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* About DSK */}
+          {/* About Nilcon */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-sidebar-primary rounded-md flex items-center justify-center">
-                <span className="text-sidebar-primary-foreground font-bold">D</span>
-              </div>
-              <h3 className="font-display font-bold text-lg">DSK Architect</h3>
+              <img src={logoImage} alt="Nilcon Builders Logo" className="h-8 w-auto" />
+              <h3 className="font-display font-bold text-lg">Nilcon Builders</h3>
             </div>
             
             <p className="text-sm text-sidebar-foreground/80 mb-4">
-              Creating spaces of tranquility, harmony, and individuality since 2015. 
-              MSME certified and BAI registered architectural firm in Dhule, Maharashtra.
+              Building excellence and creating lasting structures since 2014. 
+              MSME certified and BAI registered construction company in Dhule, Maharashtra.
             </p>
             
             <div className="space-y-2">
               <Badge variant="secondary" className="mr-2">
-                MSME: UDYAM-MH-09-0004399
+                MSME: UDAYJ-MH-10-0004896
               </Badge>
               <Badge variant="secondary">
-                BAI ID: MH/DHU/D/17/PAT
+                BAI ID: MH/DHU/D/10/AAT
               </Badge>
             </div>
           </div>
@@ -77,7 +76,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold text-sidebar-foreground mb-4">Services</h4>
+            <h4 className="font-semibold text-sidebar-foreground mb-4">Our Services</h4>
             <ul className="space-y-2">
               {services.map((service, index) => (
                 <li key={index} className="text-sm text-sidebar-foreground/80">
@@ -94,21 +93,20 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-sidebar-primary mt-0.5 flex-shrink-0" />
                 <div className="text-sidebar-foreground/80">
-                  1st Floor, Yogesh Complex,<br />
-                  Jhansi Rani Chowk, Lalbaug,<br />
-                  Dhule – 424001<br />
-                  Opp. Jhansi Rani Putala
+                  3, Yashovallabh Shopping Complex,<br />
+                  Rani Lakshmibai Road,<br />
+                  Dhule
                 </div>
               </div>
               
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-sidebar-primary" />
-                <span className="text-sidebar-foreground/80">9096939495</span>
+                <span className="text-sidebar-foreground/80">9404970032</span>
               </div>
               
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-sidebar-primary" />
-                <span className="text-sidebar-foreground/80">contact@dskarchitects.in</span>
+                <span className="text-sidebar-foreground/80">info@nilconbuilders.com</span>
               </div>
               
               <div className="text-sidebar-foreground/80">
@@ -134,7 +132,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-sidebar-border mt-8 pt-8 text-center text-sm text-sidebar-foreground/60">
-          <p>© 2024 DSK Architect. All rights reserved. | Designed & Developed with precision.</p>
+          <p>© 2024 Nilcon Builders. All rights reserved. | Building excellence since 2015.</p>
         </div>
       </div>
     </footer>

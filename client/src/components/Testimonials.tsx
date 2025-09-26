@@ -15,7 +15,7 @@ export default function Testimonials() {
       role: "Homeowner",
       project: "Serenity Residences",
       rating: 5,
-      quote: "DSK Architect transformed our vision into reality. The attention to detail and professional approach exceeded our expectations.",
+      quote: "Nilcon Builders transformed our vision into reality. The attention to detail and professional approach exceeded our expectations.",
       avatar: "RP"
     },
     {
@@ -23,7 +23,7 @@ export default function Testimonials() {
       role: "Business Owner",
       project: "Shree Complex",
       rating: 5,
-      quote: "The commercial space designed by DSK team has significantly improved our business operations. Highly recommended!",
+      quote: "The commercial space built by Nilcon team has significantly improved our business operations. Highly recommended!",
       avatar: "PS"
     },
     {
@@ -31,7 +31,7 @@ export default function Testimonials() {
       role: "Property Developer", 
       project: "Tranquil Homes",
       rating: 5,
-      quote: "Working with DSK Architect was a pleasure. Their innovative designs and timely execution made our project a huge success.",
+      quote: "Working with Nilcon Builders was a pleasure. Their quality craftsmanship and timely execution made our project a huge success.",
       avatar: "AD"
     }
   ];
@@ -55,7 +55,7 @@ export default function Testimonials() {
               What Our Clients Say
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Hear from satisfied clients who have experienced our commitment to architectural excellence.
+              Hear from satisfied clients who have experienced our commitment to construction excellence.
             </p>
           </div>
         </ScrollReveal>

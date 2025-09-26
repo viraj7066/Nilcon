@@ -4,59 +4,113 @@ import Footer from "@/components/Footer";
 import ProjectCard from "@/components/ProjectCard";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import serenityImage from "@assets/generated_images/Serenity_Residences_project_f9c8c2c3.png";
-import shreeImage from "@assets/generated_images/Shree_Complex_commercial_e68a0bd8.png";
+import serenityImage from "@assets/generated_images/sai.png";
+import shreeImage from "@assets/generated_images/hori.png";
 import tranquilImage from "@assets/generated_images/Tranquil_Homes_villas_68945ba5.png";
 import industrialImage from "@assets/generated_images/Industrial_Hub_facility_1f9f9d5c.png";
+
+type ProjectStatus = "Completed" | "Ongoing";
+
+interface Project {
+  id: string;
+  title: string;
+  category: string;
+  status: ProjectStatus;
+  location: string;
+  year: string;
+  image: string;
+  description: string;
+  amenities: string[];
+}
 
 export default function Projects() {
   const [typeFilter, setTypeFilter] = useState("All");
   const [statusFilter, setStatusFilter] = useState("All");
 
-  //todo: remove mock functionality
-  const projects = [
+  const projects: Project[] = [
     {
-      title: "Serenity Residences",
+      id: "1",
+      title: "Sai Park",
       category: "Residential",
-      status: "Ongoing" as const,
-      location: "Dhule",
-      year: "2024",
+      status: "Completed",
+      location:
+        "Plot No. 38, Badgujar Colony, In front of Panchvati Gas Agency, GTP Stop, Devpur, Dhule",
+      year: "2023",
       image: serenityImage,
-      description: "Modern residential complex with contemporary amenities and sustainable design features for modern living."
+      description:
+        "A modern residential complex designed with comfort and convenience in mind. Featuring spacious layouts and modern amenities for a contemporary lifestyle.",
+      amenities: [
+        "24x7 Security",
+        "Power Backup",
+        "Water Supply",
+        "Landscaped Garden",
+        "Children's Play Area",
+        "Parking Facility",
+      ],
     },
     {
-      title: "Shree Complex",
-      category: "Commercial",
-      status: "Completed" as const,
-      location: "Dhule",
-      year: "2023",
+      id: "2",
+      title: "The Horizon",
+      category: "Residential",
+      status: "Ongoing",
+      location: "Plot No. 4, Saraswati Colony, Devpur, Dhule",
+      year: "2024",
       image: shreeImage,
-      description: "State-of-the-art commercial complex featuring modern office spaces and retail outlets."
+      description:
+        "An upcoming residential development offering premium living spaces with modern amenities and excellent connectivity.",
+      amenities: [
+        "Security System",
+        "Power Backup",
+        "Water Supply",
+        "Landscaped Garden",
+        "Parking Facility",
+        "Lift Access",
+      ],
     },
     {
-      title: "Tranquil Homes",
-      category: "Villas",
-      status: "Completed" as const,
-      location: "Dhule",
-      year: "2023",
+      id: "3",
+      title: "Central Business Hub",
+      category: "Commercial",
+      status: "Completed",
+      location: "Main Road, MIDC Area, Dhule",
+      year: "2022",
       image: tranquilImage,
-      description: "Luxury villa development with landscaped gardens and premium finishes throughout."
+      description:
+        "A premium commercial complex designed to meet the needs of modern businesses. Featuring retail spaces, offices, and excellent connectivity.",
+      amenities: [
+        "High-Speed Elevators",
+        "Power Backup",
+        "Fire Safety System",
+        "CCTV Surveillance",
+        "Ample Parking",
+        "Visitor Management",
+      ],
     },
     {
-      title: "Industrial Hub",
+      id: "4",
+      title: "Logistics Center",
       category: "Industrial",
-      status: "Ongoing" as const,
-      location: "Dhule MIDC",
+      status: "Ongoing",
+      location: "Waghadi Road, MIDC Industrial Area, Dhule",
       year: "2024",
       image: industrialImage,
-      description: "Large-scale industrial facility designed for modern manufacturing with advanced infrastructure."
-    }
+      description:
+        "A state-of-the-art logistics and warehouse facility designed for efficient supply chain management and storage solutions.",
+      amenities: [
+        "24/7 Security",
+        "Loading Docks",
+        "Wide Roads",
+        "Power Backup",
+        "Fire Safety System",
+        "Weighbridge Facility",
+      ],
+    },
   ];
 
   const typeFilters = ["All", "Residential", "Commercial", "Villas", "Industrial"];
   const statusFilters = ["All", "Ongoing", "Completed"];
 
-  const filteredProjects = projects.filter(project => {
+  const filteredProjects = projects.filter((project) => {
     const typeMatch = typeFilter === "All" || project.category === typeFilter;
     const statusMatch = statusFilter === "All" || project.status === statusFilter;
     return typeMatch && statusMatch;
@@ -65,7 +119,7 @@ export default function Projects() {
   return (
     <div className="min-h-screen">
       <Header />
-      
+
       <main>
         {/* Hero Section */}
         <section className="py-20 bg-muted/30">
@@ -74,7 +128,8 @@ export default function Projects() {
               Our Portfolio
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Discover our diverse collection of architectural projects spanning residential, commercial, and interior design solutions.
+              Discover our diverse collection of construction projects spanning
+              residential, commercial, industrial, and infrastructure solutions.
             </p>
           </div>
         </section>
@@ -84,7 +139,9 @@ export default function Projects() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col lg:flex-row gap-6 items-center justify-between">
               <div className="flex flex-wrap gap-2">
-                <span className="text-sm font-medium text-foreground mr-2">Type:</span>
+                <span className="text-sm font-medium text-foreground mr-2">
+                  Type:
+                </span>
                 {typeFilters.map((filter) => (
                   <Button
                     key={filter}
@@ -97,9 +154,11 @@ export default function Projects() {
                   </Button>
                 ))}
               </div>
-              
+
               <div className="flex flex-wrap gap-2">
-                <span className="text-sm font-medium text-foreground mr-2">Status:</span>
+                <span className="text-sm font-medium text-foreground mr-2">
+                  Status:
+                </span>
                 {statusFilters.map((filter) => (
                   <Button
                     key={filter}
@@ -130,13 +189,15 @@ export default function Projects() {
 
             {filteredProjects.length > 0 ? (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {filteredProjects.map((project, index) => (
-                  <ProjectCard key={index} {...project} />
+                {filteredProjects.map((project) => (
+                  <ProjectCard key={project.id} {...project} />
                 ))}
               </div>
             ) : (
               <div className="text-center py-12">
-                <p className="text-muted-foreground">No projects match the selected filters.</p>
+                <p className="text-muted-foreground">
+                  No projects match the selected filters.
+                </p>
               </div>
             )}
           </div>
@@ -149,7 +210,8 @@ export default function Projects() {
               More Projects Coming Soon
             </h3>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              We have exciting new projects in development. Be the first to know when they're unveiled.
+              We have exciting new projects in development. Be the first to know
+              when they're unveiled.
             </p>
             <Button size="lg" data-testid="button-early-access">
               Get Early Access

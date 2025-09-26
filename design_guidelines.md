@@ -1,21 +1,21 @@
-# DSK Architect Website Design Guidelines
+# Nilcon Builders Website Design Guidelines
 
 ## Design Approach
-**Reference-Based Approach**: Drawing inspiration from premium architectural firm websites like Zaha Hadid Architects and Foster + Partners, emphasizing sophisticated visual hierarchy and professional presentation.
+**Reference-Based Approach**: Drawing inspiration from premium construction company websites, emphasizing professional presentation, clear project showcases, and industry expertise.
 
 ## Core Design Elements
 
 ### Color Palette
 **Primary Colors:**
-- Dark Charcoal: 220 10% 15% (main backgrounds, text)
-- Warm White: 30 5% 96% (light backgrounds, contrast text)
+- Dark Charcoal: 220 10% 15% (main backgrounds, text - text-primary)
+- Warm White: 0 0% 100% (Navbar background)
 
 **Brand Colors:**
-- Terracotta Orange: 15 75% 55% (primary accent, CTAs)
-- Slate Blue: 210 25% 35% (secondary accent, links)
+- Warm Orange: 15 75% 55% (primary accent, CTAs)
+- Medium Blue: 210 25% 35% (secondary accent, links)
 
 **Supporting Colors:**
-- Light Gray: 220 8% 85% (borders, subtle backgrounds)
+- Light Gray: 220 8% 85% (borders, dividers, cards)
 - Deep Navy: 220 30% 20% (footer, dark sections)
 
 ### Typography
@@ -90,4 +90,4 @@
 4. **Performance Focus**: Optimized animations and efficient loading
 5. **Accessibility**: High contrast ratios, keyboard navigation, screen reader support
 
-This design system creates a sophisticated, professional presence that reflects DSK Architect's expertise while providing an exceptional user experience across all devices.
+This design system creates a sophisticated, professional presence that reflects Nilcon Builders' construction expertise while providing an exceptional user experience across all devices.

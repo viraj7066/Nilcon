@@ -9,8 +9,8 @@ import ScrollReveal from "@/components/ScrollReveal";
 export default function FAQAccordion() {
   const faqs = [
     {
-      question: "What is your design process?",
-      answer: "Our design process begins with understanding your vision and requirements. We conduct site analysis, create conceptual designs, develop detailed drawings, and provide construction documentation. Throughout the process, we maintain regular communication and incorporate your feedback."
+      question: "What is your construction process?",
+      answer: "Our construction process begins with understanding your vision and requirements. We conduct site analysis, create detailed plans, provide accurate cost estimates, and manage the entire construction process. Throughout the process, we maintain regular communication and incorporate your feedback."
     },
     {
       question: "What are typical project timelines?",
@@ -33,8 +33,8 @@ export default function FAQAccordion() {
       answer: "Yes, we provide comprehensive site supervision services. Our team conducts regular site visits, monitors construction quality, ensures adherence to designs, and coordinates with contractors. This ensures your project is executed according to specifications."
     },
     {
-      question: "What makes DSK Architect different?",
-      answer: "As a MSME certified and BAI registered firm, we bring government recognition and credibility. Our approach focuses on harmony, cultural sensitivity, and spiritual essence in design. We offer personalized service, transparent processes, and sustainable solutions."
+      question: "What makes Nilcon Builders different?",
+      answer: "As a MSME certified and industry-recognized firm, we bring credibility and expertise to every project. Our approach focuses on quality craftsmanship, innovation, and client satisfaction. We offer personalized service, transparent processes, and sustainable construction solutions."
     }
   ];
 

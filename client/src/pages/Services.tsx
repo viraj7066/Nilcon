@@ -3,133 +3,133 @@ import Footer from "@/components/Footer";
 import ServiceBlock from "@/components/ServiceBlock";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Home, Building2, Palette, Wrench, FileText, RotateCcw, Phone, Mail } from "lucide-react";
+import { Home, Building2, Factory, Wrench, FileText, RotateCcw, Phone, Mail, CheckCircle } from "lucide-react";
 
 export default function Services() {
   const services = [
     {
       icon: Home,
-      title: "Residential Architecture",
-      description: "Custom home designs that reflect your lifestyle and preferences while maximizing functionality and aesthetic appeal. From single-family homes to multi-unit residential complexes.",
+      title: "Residential Construction",
+      description: "Custom home construction that reflects your lifestyle and preferences while ensuring structural integrity and aesthetic appeal. From single-family homes to multi-unit residential complexes.",
       features: [
-        "Custom Home Design & Planning",
-        "Apartment & Condominium Design",
-        "Residential Complex Development",
-        "Space Optimization & Layout",
-        "Sustainable Design Solutions",
-        "Landscape Integration"
+        "New Home Construction",
+        "Apartment & Housing Complexes",
+        "Villa Construction",
+        "Floor Extension Services",
+        "Sustainable Building Solutions",
+        "Interior Finishing Works"
       ],
       benefits: [
-        "Personalized Design Approach",
-        "Energy Efficient Solutions",
-        "Code Compliance Assurance",
-        "Timely Project Delivery",
-        "Cost Optimization",
+        "Personalized Approach to Construction",
+        "Energy Efficient Building Methods",
+        "Structural Safety Compliance",
+        "Timely Project Completion",
+        "Transparent Cost Management",
         "Post-Construction Support"
       ]
     },
     {
       icon: Building2,
-      title: "Commercial Architecture", 
-      description: "Professional commercial spaces designed to enhance business operations and create lasting impressions. From office buildings to retail complexes that drive success.",
+      title: "Commercial Building", 
+      description: "Professional commercial construction services that enhance business operations and create lasting value. From office buildings to retail complexes designed for success.",
       features: [
-        "Office Building Design",
+        "Office Building Construction",
         "Retail & Shopping Centers", 
         "Corporate Headquarters",
         "Mixed-Use Developments",
-        "Industrial Facilities",
-        "Hospitality Structures"
+        "Hospitality Structures",
+        "Educational Facilities"
       ],
       benefits: [
-        "Brand-Aligned Design",
-        "Functional Space Planning",
+        "Business-Oriented Building Solutions",
+        "Functional Space Optimization",
         "Regulatory Compliance",
-        "Future-Ready Infrastructure",
-        "ROI Optimization",
-        "Maintenance Efficiency"
+        "Future-Proof Infrastructure",
+        "Business Value Enhancement",
+        "Low-Maintenance Construction"
       ]
     },
     {
-      icon: Palette,
-      title: "Interior Design",
-      description: "Complete interior solutions that transform spaces into functional, beautiful environments. We create interiors that reflect your personality and enhance your lifestyle.",
+      icon: Factory,
+      title: "Industrial Infrastructure",
+      description: "Robust industrial construction that meets specialized operational requirements. From manufacturing facilities to warehouses designed for efficiency and safety.",
       features: [
-        "Space Planning & Layout",
-        "Material & Finish Selection",
-        "Custom Furniture Design",
-        "Lighting Design Solutions",
-        "Color Scheme Development",
-        "Decor & Styling"
+        "Factory & Workshop Construction",
+        "Warehouse & Storage Facilities",
+        "Industrial Sheds",
+        "Logistics Centers",
+        "Specialized Industrial Structures",
+        "Loading Bay & Dock Construction"
       ],
       benefits: [
-        "Cohesive Design Vision",
-        "Quality Material Selection",
-        "Ergonomic Solutions",
-        "Sustainable Choices",
-        "Budget Management",
-        "Styling Support"
+        "Industry-Specific Solutions",
+        "Structural Strength & Durability",
+        "Safety Standards Compliance",
+        "Operational Efficiency Focus",
+        "Heavy Load Capacity",
+        "Long-Term Reliability"
       ]
     },
     {
       icon: Wrench,
-      title: "Construction Management",
-      description: "Comprehensive project management ensuring your architectural vision is executed flawlessly. From planning to completion, we oversee every detail.",
+      title: "Project Management",
+      description: "Comprehensive project management ensuring your construction vision is executed flawlessly. From planning to completion, we oversee every detail of your project.",
       features: [
-        "Project Planning & Scheduling",
+        "Detailed Project Planning & Scheduling",
         "Quality Control & Assurance",
         "Site Supervision & Management",
         "Contractor Coordination",
-        "Progress Monitoring",
-        "Safety Compliance"
+        "Progress Monitoring & Reporting",
+        "Safety Compliance Management"
       ],
       benefits: [
-        "Timely Project Completion",
-        "Quality Assurance",
-        "Cost Control",
-        "Risk Management",
-        "Regular Updates",
-        "Post-Construction Support"
+        "On-Time Project Delivery",
+        "Superior Quality Construction",
+        "Effective Cost Control",
+        "Risk Mitigation Strategies",
+        "Regular Client Updates",
+        "Smooth Project Execution"
       ]
     },
     {
       icon: FileText,
-      title: "Technical Consultancy",
-      description: "Expert technical guidance for complex architectural challenges. We provide specialized consulting services to ensure optimal design solutions.",
+      title: "Quality Control & Supervision",
+      description: "Expert oversight to ensure construction projects meet the highest standards of quality and safety. Our dedicated team ensures every detail is executed to perfection.",
       features: [
-        "Structural Assessment",
-        "Building Code Compliance",
-        "Zoning & Planning Approvals",
-        "Technical Documentation",
-        "Design Review & Optimization",
-        "Feasibility Studies"
+        "Material Quality Inspection",
+        "Workmanship Supervision",
+        "Structural Integrity Checks",
+        "Safety Protocol Enforcement",
+        "Compliance Verification",
+        "Defect Identification & Rectification"
       ],
       benefits: [
-        "Expert Guidance",
-        "Compliance Assurance",
-        "Risk Mitigation",
-        "Cost-Effective Solutions",
-        "Technical Accuracy",
-        "Professional Documentation"
+        "Superior Construction Quality",
+        "Safety Standards Compliance",
+        "Reduced Rework Costs",
+        "Timely Issue Resolution",
+        "Peace of Mind",
+        "Long-Lasting Results"
       ]
     },
     {
       icon: RotateCcw,
-      title: "Renovation & Additions",
-      description: "Transform existing spaces with innovative renovation solutions. Whether updating a single room or complete property transformation, we deliver exceptional results.",
+      title: "Renovation & Expansion",
+      description: "Transform existing structures with innovative renovation and expansion solutions. Whether updating a home or expanding a commercial space, we deliver exceptional results.",
       features: [
-        "Complete Home Renovations",
-        "Room-Specific Updates",
-        "Structural Modifications",
-        "Accessibility Improvements",
-        "Energy Efficiency Upgrades",
-        "Historic Preservation"
+        "Complete Property Renovations",
+        "Structural Additions",
+        "Space Redesign & Repurposing",
+        "Modernization Upgrades",
+        "Energy Efficiency Improvements",
+        "Heritage Building Restoration"
       ],
       benefits: [
         "Enhanced Property Value",
         "Improved Functionality",
-        "Modern Updates",
-        "Energy Savings",
-        "Personalization",
+        "Modernized Spaces",
+        "Energy & Cost Savings",
+        "Tailored Solutions",
         "Minimal Disruption"
       ]
     }
@@ -144,10 +144,10 @@ export default function Services() {
         <section className="py-20 bg-muted/30">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
-              Our Expertise in Design & Build
+              Our Construction Expertise
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Comprehensive architectural and construction services delivered with precision, creativity, and unwavering commitment to excellence.
+              Comprehensive construction services delivered with precision, expertise, and unwavering commitment to quality and client satisfaction.
             </p>
           </div>
         </section>
@@ -193,10 +193,10 @@ export default function Services() {
 
                   <Card>
                     <CardContent className="p-6">
-                      <h4 className="font-semibold text-foreground mb-4">Why Choose DSK Architect?</h4>
+                      <h4 className="font-semibold text-foreground mb-4">Why Choose Nilcon Builders?</h4>
                       <ul className="space-y-3 text-sm text-muted-foreground">
                         <li className="flex items-start gap-2">
-                          <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></span>
+                          <CheckCircle className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
                           MSME Certified & Government Recognized
                         </li>
                         <li className="flex items-start gap-2">
@@ -205,7 +205,7 @@ export default function Services() {
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></span>
-                          10+ Years of Experience
+                          11+ Years of Experience
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></span>

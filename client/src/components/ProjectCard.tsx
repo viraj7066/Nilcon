@@ -11,6 +11,7 @@ interface ProjectCardProps {
   year: string;
   image: string;
   description: string;
+  amenities?: string[];
 }
 
 export default function ProjectCard({ 
@@ -20,7 +21,8 @@ export default function ProjectCard({
   location, 
   year, 
   image, 
-  description 
+  description,
+  amenities
 }: ProjectCardProps) {
   return (
     <Card className="group hover-elevate overflow-hidden">
@@ -61,6 +63,19 @@ export default function ProjectCard({
           <p className="text-muted-foreground mb-4 line-clamp-2">
             {description}
           </p>
+          
+          {amenities && amenities.length > 0 && (
+            <div className="mt-3 mb-4">
+              <h4 className="text-sm font-medium text-foreground mb-2">Amenities:</h4>
+              <div className="flex flex-wrap gap-2">
+                {amenities.map((amenity, index) => (
+                  <Badge key={index} variant="secondary" className="bg-secondary/10 text-secondary">
+                    {amenity}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+          )}
           
           <div className="flex items-center justify-between text-sm text-muted-foreground">
             <div className="flex items-center gap-1">

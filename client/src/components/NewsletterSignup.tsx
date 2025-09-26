@@ -33,7 +33,7 @@ export default function NewsletterSignup() {
           </div>
           
           <p className="text-muted-foreground mb-6">
-            Subscribe to our newsletter for the latest architectural insights, project updates, and design trends.
+            Subscribe to our newsletter for the latest construction insights, project updates, and industry trends.
           </p>
 
           {isSubscribed ? (

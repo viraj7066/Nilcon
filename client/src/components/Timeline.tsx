@@ -5,38 +5,20 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 export default function Timeline() {
   const timelineEvents = [
-    {
-      year: "2015",
-      title: "Company Founded",
-      description: "DSK Architect established on June 10, 2015 by Ar. Dipesh Sushil Khilosiya",
-      icon: Building,
-      badge: "Foundation"
-    },
-    {
-      year: "2016-2018", 
-      title: "Residential Focus",
-      description: "Built expertise in residential architecture with first major residential projects",
-      icon: Users,
-      badge: "Growth"
-    },
-    {
-      year: "2019-2021",
-      title: "Commercial Expansion",
-      description: "Expanded into commercial architecture and established strong client relationships",
-      icon: Building,
-      badge: "Expansion"
-    },
+    {      year: "2014",      title: "Company Founded",      description: "Nilcon Builders established on March 14, 2014 by Prashant Patil",      icon: Building,      badge: "Foundation"    },
+    {      year: "2015-2017",       title: "Residential Focus",      description: "Built expertise in residential construction with first major residential projects",      icon: Users,      badge: "Growth"    },
+    {      year: "2018-2020",      title: "Commercial Expansion",      description: "Expanded into commercial construction and established strong client relationships",      icon: Building,      badge: "Expansion"    },
     {
       year: "2022",
       title: "MSME Recognition",
-      description: "Received MSME certification (UDYAM-MH-09-0004399) recognizing our contributions",
+      description: "Received MSME certification (UDAYJ-MH-10-0004896) recognizing our contributions",
       icon: Award,
       badge: "Recognition"
     },
     {
       year: "2023",
       title: "BAI Membership",
-      description: "Became registered member of Builders Association of India (MH/DHU/D/17/PAT)",
+      description: "Became registered member of Builders Association of India (MH/DHU/D/10/AAT)",
       icon: FileCheck,
       badge: "Professional"
     },
@@ -57,9 +39,7 @@ export default function Timeline() {
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
               Our Journey
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A decade of architectural excellence, innovation, and commitment to creating spaces that inspire.
-            </p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">              A decade of construction excellence, innovation, and commitment to building spaces that inspire.            </p>
           </div>
         </ScrollReveal>
 

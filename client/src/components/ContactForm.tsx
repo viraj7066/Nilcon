@@ -45,14 +45,7 @@ export default function ContactForm() {
     }, 5000);
   };
 
-  const services = [
-    "Residential Architecture",
-    "Commercial Design",
-    "Interior Design", 
-    "Construction Management",
-    "Technical Consultancy",
-    "Renovation & Additions"
-  ];
+  const services = [    "Residential Construction",    "Commercial Building",    "Interior Fit-Outs",     "Construction Management",    "Project Consultancy",    "Renovation & Expansion"  ];
 
   return (
     <section className="py-16">
@@ -60,12 +53,7 @@ export default function ContactForm() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div>
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Let's Create Together
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              Ready to bring your architectural vision to life? Get in touch with us to discuss your project requirements.
-            </p>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">              Let's Build Together            </h2>            <p className="text-lg text-muted-foreground mb-8">              Ready to bring your construction vision to life? Get in touch with us to discuss your project requirements.            </p>
 
             {isSubmitted ? (
               <Card className="bg-primary/10 border-primary/20">
@@ -192,10 +180,9 @@ export default function ContactForm() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  1st Floor, Yogesh Complex,<br />
-                  Jhansi Rani Chowk, Lalbaug,<br />
-                  Dhule – 424001, Maharashtra<br />
-                  Opp. Jhansi Rani Putala
+                  3, Yashovallabh Shopping Complex,<br />
+                  Rani Lakshmibai Road,<br />
+                  Dhule<br />
                 </p>
               </CardContent>
             </Card>
@@ -210,12 +197,9 @@ export default function ContactForm() {
               <CardContent className="space-y-2">
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4 text-muted-foreground" />
-                  <span className="text-muted-foreground">9096939495</span>
+                  <span className="text-muted-foreground">9404970032</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <Mail className="w-4 h-4 text-muted-foreground" />
-                  <span className="text-muted-foreground">contact@dskarchitects.in</span>
-                </div>
+                <div className="flex items-center gap-2">                  <Mail className="w-4 h-4 text-muted-foreground" />                  <span className="text-muted-foreground">info@nilconbuilders.com</span>                </div>
               </CardContent>
             </Card>
 

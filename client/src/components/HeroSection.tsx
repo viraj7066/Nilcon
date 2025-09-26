@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Users, Building, Award, Calendar, Phone, Mail } from "lucide-react";
-import heroImage from "@assets/generated_images/Modern_architectural_building_hero_3893b7be.png";
+import heroImage from "@assets/generated_images/main_hero.png";
 
 export default function HeroSection() {
 
@@ -17,7 +17,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="DSK Architect - Professional Architecture Services" 
+          alt="Nilcon Builders - Professional Construction Services" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60"></div>
@@ -30,16 +30,16 @@ export default function HeroSection() {
             {/* Left Content */}
             <div className="text-left">
               <div className="mb-6">
-                <p className="text-primary font-semibold text-lg mb-2">DSK ARCHITECT</p>
+                <p className="text-primary font-semibold text-lg mb-2">NILCON BUILDERS</p>
                 <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                  Architectural Excellence{" "}
-                  <span className="text-primary">Since 2015</span>
+                  Construction Excellence 
+                  <span className="text-primary"> Since 2014</span>
                 </h1>
               </div>
               
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                MSME certified and BAI registered architectural practice specializing in residential, 
-                commercial, and interior design solutions across Maharashtra.
+                MSME certified and BAI registered construction company specializing in residential, 
+                commercial, and industrial construction solutions across Maharashtra.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -58,9 +58,9 @@ export default function HeroSection() {
                   <Phone className="w-4 h-4" />
                   <span>9096939495</span>
                 </a>
-                <a href="mailto:contact@dskarchitects.in" className="flex items-center gap-2 hover:text-primary transition-colors" data-testid="link-email">
+                <a href="mailto:info@nilconbuilders.com" className="flex items-center gap-2 hover:text-primary transition-colors" data-testid="link-email">
                   <Mail className="w-4 h-4" />
-                  <span>contact@dskarchitects.in</span>
+                  <span>info@nilconbuilders.com</span>
                 </a>
               </div>
             </div>
@@ -69,13 +69,13 @@ export default function HeroSection() {
             <div className="lg:text-center">
               <div className="bg-card/90 backdrop-blur-md border border-card-border rounded-xl p-8 text-center">
                 <h3 className="font-display text-2xl font-bold text-foreground mb-2">
-                  Ar. Dipesh Sushil Khilosiya
+                  Prashant Patil
                 </h3>
-                <p className="text-primary font-medium mb-4">Principal Architect & Founder</p>
+                <p className="text-primary font-medium mb-4">Founder & Managing Director</p>
                 <div className="space-y-2 text-sm text-muted-foreground">
-                  <p>• MSME Certified: UDYAM-MH-09-0004399</p>
-                  <p>• BAI Registered: MH/DHU/D/17/PAT</p>
-                  <p>• 10+ Years Professional Experience</p>
+                  <p>• MSME Certified: UDAYJ-MH-10-0004896</p>
+                  <p>• BAI Registered: MH/DHU/D/10/AAT</p>
+                  <p>• 10+ Years Construction Experience</p>
                   <p>• 50+ Successful Projects Delivered</p>
                 </div>
               </div>

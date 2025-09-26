@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, MapPin, Calendar } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
-import serenityImage from "@assets/generated_images/Serenity_Residences_project_f9c8c2c3.png";
-import shreeImage from "@assets/generated_images/Shree_Complex_commercial_e68a0bd8.png";
+import serenityImage from "@assets/generated_images/sai.png";
+import shreeImage from "@assets/generated_images/hori.png";
 import tranquilImage from "@assets/generated_images/Tranquil_Homes_villas_68945ba5.png";
 import industrialImage from "@assets/generated_images/Industrial_Hub_facility_1f9f9d5c.png";
 
@@ -12,44 +12,45 @@ export default function FeaturedProjects() {
   const projects = [
     {
       id: 1,
-      title: "Serenity Residences",
+      title: "Sai Park",
       category: "Residential",
-      status: "Ongoing",
-      location: "Dhule",
-      year: "2024",
+      status: "Completed",
+      location: "Plot No. 38, Badgujar Colony, In front of Panchvati Gas Agency, GTP Stop, Devpur, Dhule",
+      year: "2023",
       image: serenityImage,
-      description: "Modern residential complex with contemporary amenities and sustainable design."
+      description: "A modern residential complex designed with comfort and convenience in mind. Featuring spacious layouts and modern amenities for a contemporary lifestyle."
     },
     {
       id: 2,
-      title: "Shree Complex",
-      category: "Commercial", 
+      title: "The Horizon",
+      category: "Residential",
       status: "Completed",
-      location: "Dhule",
-      year: "2023",
+      location: "Plot No. 4, Saraswati Colony, Devpur, Dhule",
+      year: "2024",
       image: shreeImage,
-      description: "State-of-the-art commercial complex with modern office spaces."
+      description: "An upcoming residential development offering premium living spaces with modern amenities and excellent connectivity."
     },
     {
       id: 3,
-      title: "Tranquil Homes",
-      category: "Villas",
-      status: "Completed", 
-      location: "Dhule",
-      year: "2023",
+      title: "Central Business Hub",
+      category: "Commercial",
+      status: "Ongoing",
+      location: "Main Road, MIDC Area, Dhule",
+      year: "2024",
       image: tranquilImage,
-      description: "Luxury villa development with landscaped gardens and premium finishes."
+      description: "An upcoming residential development offering premium living spaces with modern amenities and excellent connectivity."
     },
     {
       id: 4,
-      title: "Industrial Hub",
+      title: "Logistics Center",
       category: "Industrial",
       status: "Ongoing",
-      location: "Dhule MIDC",
-      year: "2024", 
+      location: "Waghadi Road, MIDC Industrial Area, Dhule",
+      year: "2024",
       image: industrialImage,
-      description: "Large-scale industrial facility with advanced infrastructure."
+      description: "An upcoming residential development offering premium living spaces with modern amenities and excellent connectivity."
     }
+    
   ];
 
   return (
@@ -61,7 +62,7 @@ export default function FeaturedProjects() {
               Featured Projects
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Explore our portfolio of innovative architectural solutions that blend functionality with aesthetic excellence.
+              Explore our portfolio of innovative construction solutions that blend functionality with quality craftsmanship.
             </p>
           </div>
         </ScrollReveal>

@@ -84,10 +84,10 @@ export default function Gallery() {
         <section className="py-20 bg-muted/30">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
-              Our Design Showcase
+              Our Construction Projects
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Explore our projects, interiors, and designs—crafted with precision and creativity to bring architectural visions to life.
+              Explore our construction projects—crafted with precision and expertise to bring building visions to life.
             </p>
           </div>
         </section>

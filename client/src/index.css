@@ -14,66 +14,64 @@
   --elevate-1: rgba(0,0,0, .03);
   --elevate-2: rgba(0,0,0, .08);
 
-  --background: 0 0% 100%; /* Pure White #FFFFFF */
+  --background: 0 0% 100%; /* Pure White #FFFFFF - Navbar background */
 
-  --foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
+  --foreground: 220 10% 15%; /* Dark Charcoal - text-primary */
 
-  --border: 0 0% 85%; /* Light gray border */
+  --border: 220 8% 85%; /* Light gray border - dividers, cards */
 
   --card: 0 0% 96%; /* Soft Gray #F5F5F5 */
 
-  --card-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
+  --card-foreground: 220 10% 15%; /* Dark Charcoal */
 
-  --card-border: 0 0% 82%; /* Light gray border */
+  --card-border: 220 8% 82%; /* Light gray border */
 
-  --sidebar: 0 0% 92%; /* Light gray sidebar */
+  --sidebar: 220 30% 20%; /* Deep Navy - Footer background */
 
-  --sidebar-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
+  --sidebar-foreground: 0 0% 100%; /* Pure White - Footer text */
 
-  --sidebar-border: 0 0% 80%; /* Light gray border */
+  --sidebar-border: 220 8% 18%; /* Dark border */
 
-  --sidebar-primary: 38 42% 57%; /* Warm Gold #C6A35C */
+  --sidebar-primary: 219 85% 25%; /* Dark Blue - accent color */
 
-  --sidebar-primary-foreground: 0 0% 100%; /* Pure White #FFFFFF */
+  --sidebar-primary-foreground: 0 0% 100%; /* Pure White */
 
-  --sidebar-accent: 0 0% 89%; /* Light gray accent */
+  --sidebar-accent: 210 25% 35%; /* Slate Blue - secondary accent */
 
-  --sidebar-accent-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
+  --sidebar-accent-foreground: 0 0% 100%; /* Pure White */
 
-  --sidebar-ring: 38 42% 57%; /* Warm Gold #C6A35C */
+  --sidebar-ring: 219 85% 25%; /* Dark Blue */
 
   --popover: 0 0% 90%; /* Light gray popover */
 
-  --popover-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
+  --popover-foreground: 220 10% 15%; /* Dark Charcoal */
 
-  --popover-border: 0 0% 78%; /* Light gray border */
+  --popover-border: 220 8% 78%; /* Light gray border */
 
-  --primary: 38 42% 57%; /* Warm Gold #C6A35C */
+  --primary: 219 85% 25%; /* Dark Blue - Primary CTA */
 
-  --primary-foreground: 0 0% 100%; /* Pure White #FFFFFF */
+  --primary-foreground: 0 0% 100%; /* Pure White */
 
-  --secondary: 0 0% 88%; /* Light gray secondary */
+  --secondary: 210 25% 35%; /* Slate Blue - Secondary buttons */
 
-  --secondary-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
+  --secondary-foreground: 0 0% 100%; /* White text on blue */
 
-  --muted: 0 0% 86%; /* Light gray muted */
+  --muted: 220 8% 86%; /* Light gray muted - subtle backgrounds */
 
-  --muted-foreground: 0 0% 45%; /* Medium gray text */
+  --muted-foreground: 220 10% 45%; /* Medium gray text - text-secondary */
 
-  --accent: 0 0% 88%; /* Light gray accent */
-
-  --accent-foreground: 0 0% 11%; /* Charcoal Black #1C1C1C */
+  --accent: 210 25% 35%; /* Slate Blue - medium blue for icons/highlights */
 
   --destructive: 0 84% 60%; /* Red for destructive actions */
 
   --destructive-foreground: 0 0% 98%; /* White text on red */
 
   --input: 0 0% 75%; /* Light gray input */
-  --ring: 38 42% 57%; /* Warm Gold #C6A35C */
-  --chart-1: 38 42% 57%; /* Warm Gold #C6A35C */
-  --chart-2: 0 0% 35%; /* Dark gray */
-  --chart-3: 0 0% 11%; /* Charcoal Black #1C1C1C */
-  --chart-4: 38 42% 45%; /* Darker gold */
+  --ring: 219 85% 25%; /* Dark Blue */
+  --chart-1: 219 85% 25%; /* Dark Blue */
+  --chart-2: 210 25% 35%; /* Slate Blue */
+  --chart-3: 220 10% 15%; /* Dark Charcoal */
+  --chart-4: 219 85% 20%; /* Very Dark Blue */
   --chart-5: 200 85% 40%; /* Blue accent */
 
   --font-sans: Open Sans, sans-serif;
@@ -132,53 +130,53 @@
   --elevate-1: rgba(255,255,255, .04);
   --elevate-2: rgba(255,255,255, .09);
 
-  --background: 0 0% 8%; /* Dark background */
+  --background: 220 10% 15%; /* Dark Charcoal - dark mode background */
 
-  --foreground: 0 0% 92%; /* Light text */
+  --foreground: 0 0% 92%; /* Light text - text-primary in dark mode */
 
-  --border: 0 0% 18%; /* Dark border */
+  --border: 220 8% 18%; /* Dark border */
 
-  --card: 0 0% 10%; /* Dark card */
+  --card: 220 10% 12%; /* Dark card */
 
   --card-foreground: 0 0% 92%; /* Light text */
 
-  --card-border: 0 0% 20%; /* Dark border */
+  --card-border: 220 8% 20%; /* Dark border */
 
-  --sidebar: 0 0% 12%; /* Dark sidebar */
+  --sidebar: 220 30% 10%; /* Very Deep Navy - Footer background in dark mode */
 
-  --sidebar-foreground: 0 0% 92%; /* Light text */
+  --sidebar-foreground: 0 0% 100%; /* Pure White - Footer text */
 
-  --sidebar-border: 0 0% 22%; /* Dark border */
+  --sidebar-border: 220 8% 22%; /* Dark border */
 
-  --sidebar-primary: 38 42% 57%; /* Warm Gold #C6A35C */
+  --sidebar-primary: 15 75% 55%; /* Warm Orange #E57339 - accent color */
 
-  --sidebar-primary-foreground: 0 0% 100%; /* Pure White #FFFFFF */
+  --sidebar-primary-foreground: 0 0% 100%; /* Pure White */
 
-  --sidebar-accent: 0 0% 16%; /* Dark accent */
+  --sidebar-accent: 210 25% 45%; /* Lighter Slate Blue - secondary accent in dark mode */
 
-  --sidebar-accent-foreground: 0 0% 92%; /* Light text */
+  --sidebar-accent-foreground: 0 0% 100%; /* Light text */
 
-  --sidebar-ring: 38 42% 57%; /* Warm Gold #C6A35C */
+  --sidebar-ring: 15 75% 55%; /* Warm Orange */
 
-  --popover: 0 0% 12%; /* Dark popover */
+  --popover: 220 10% 12%; /* Dark popover */
 
   --popover-foreground: 0 0% 92%; /* Light text */
 
-  --popover-border: 0 0% 24%; /* Dark border */
+  --popover-border: 220 8% 24%; /* Dark border */
 
-  --primary: 38 42% 57%; /* Warm Gold #C6A35C */
+  --primary: 15 75% 55%; /* Warm Orange #E57339 - Primary CTA */
 
-  --primary-foreground: 0 0% 100%; /* Pure White #FFFFFF */
+  --primary-foreground: 0 0% 100%; /* Pure White */
 
-  --secondary: 0 0% 14%; /* Dark secondary */
+  --secondary: 210 25% 45%; /* Lighter Slate Blue - Secondary buttons in dark mode */
 
-  --secondary-foreground: 0 0% 92%; /* Light text */
+  --secondary-foreground: 0 0% 100%; /* Light text */
 
-  --muted: 0 0% 16%; /* Dark muted */
+  --muted: 220 10% 16%; /* Dark muted */
 
-  --muted-foreground: 0 0% 65%; /* Medium gray text */
+  --muted-foreground: 0 0% 65%; /* Medium gray text - text-secondary in dark mode */
 
-  --accent: 0 0% 16%; /* Dark accent */
+  --accent: 210 25% 45%; /* Lighter Slate Blue - medium blue for icons/highlights in dark mode */
 
   --accent-foreground: 0 0% 92%; /* Light text */
 
@@ -187,11 +185,11 @@
   --destructive-foreground: 0 0% 98%; /* White text on red */
 
   --input: 0 0% 25%; /* Dark input */
-  --ring: 38 42% 57%; /* Warm Gold #C6A35C */
-  --chart-1: 38 42% 65%; /* Lighter gold */
-  --chart-2: 0 0% 75%; /* Light gray */
+  --ring: 15 75% 55%; /* Warm Orange */
+  --chart-1: 15 75% 55%; /* Warm Orange */
+  --chart-2: 210 25% 45%; /* Lighter Slate Blue */
   --chart-3: 0 0% 85%; /* Very light gray */
-  --chart-4: 38 42% 65%; /* Lighter gold */
+  --chart-4: 15 75% 45%; /* Darker Orange */
   --chart-5: 200 85% 60%; /* Blue accent */
 
   --shadow-2xs: 0px 2px 0px 0px hsl(220 8% 18% / 0.00);

@@ -19,9 +19,9 @@ export default function ServicesPreview() {
     },
     {
       icon: Palette,
-      title: "Interior Design",
-      description: "Complete interior solutions that reflect your personality and lifestyle.",
-      features: ["Space Planning", "Material Selection", "Furniture Design"]
+      title: "Interior Fit-Outs",
+      description: "Complete interior construction and finishing solutions for residential and commercial spaces.",
+      features: ["Space Planning", "Material Selection", "Finishing Works"]
     },
     {
       icon: Wrench,
@@ -40,7 +40,7 @@ export default function ServicesPreview() {
               Our Services
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive architectural and construction services tailored to bring your vision to life.
+              Comprehensive construction services tailored to bring your building vision to life.
             </p>
           </div>
         </ScrollReveal>
