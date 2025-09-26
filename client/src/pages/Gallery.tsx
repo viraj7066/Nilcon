@@ -8,7 +8,7 @@ import shreeImage from "@assets/generated_images/Shree_Complex_commercial_e68a0b
 import tranquilImage from "@assets/generated_images/Tranquil_Homes_villas_68945ba5.png";
 import industrialImage from "@assets/generated_images/Industrial_Hub_facility_1f9f9d5c.png";
 import interiorImage from "@assets/generated_images/Interior_design_showcase_77b04218.png";
-import officeImage from "@assets/generated_images/Office_interior_space_336ea015.png";
+import officeImage from "@assets/generated_images/Office.png";
 
 export default function Gallery() {
   const [activeFilter, setActiveFilter] = useState("All");
